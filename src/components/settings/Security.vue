@@ -109,9 +109,9 @@
             </template>
 
             <template v-else-if="$i18n.locale === 'zh-CN' ">
-                <p>是否确定 <strong>取消登录验证</strong>？</p>
-                <p>这是为 <strong>有第三方认证</strong> 的用户提供的功能，如 Cloudflare Access</p>
-                <p>请谨慎使用！</p>
+                <p>您确实要<strong>取消登录验证</strong>吗？</p>
+                <p>此功能仅仅适用于在 Uptime Kuma 前<strong>接入第三方身份验证</strong>的场景，例如 Cloudflare Access、Authelia 或其他身份验证机制。</p>
+                <p>请谨慎使用此选项！</p>
             </template>
 
             <template v-else-if="$i18n.locale === 'zh-TW' ">

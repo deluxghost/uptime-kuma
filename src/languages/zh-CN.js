@@ -373,4 +373,13 @@ export default {
     "For safety, must use secret key": "出于安全考虑，必须使用加签密钥",
     WeCom: "企业微信群机器人",
     "WeCom Bot Key": "企业微信群机器人 Key",
+    PushByTechulus: "Techulus 提供的 Push",
+    gorush: "Gorush",
+    alerta: "Alerta",
+    alertaApiEndpoint: "API 端点",
+    alertaEnvironment: "环境",
+    alertaApiKey: "API 密钥",
+    alertaAlertState: "警告状态",
+    alertaRecoverState: "恢复状态",
+    deleteStatusPageMsg: "确定要删除此状态页面吗？",
 };
